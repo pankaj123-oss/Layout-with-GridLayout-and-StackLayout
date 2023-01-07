@@ -1,0 +1,15 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.-primary {
+  font-size: 18;
+}
+.r1 {
+  border-width: 1px;
+  border-color: black;
+  margin: 5px;
+}
