@@ -13,3 +13,11 @@ Button.-primary {
   border-color: black;
   margin: 5px;
 }
+.s {
+  border-width: 2px;
+  border-color: black;
+  height: 100%;
+}
+.r2 {
+  height: 500px;
+}

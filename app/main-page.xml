@@ -4,8 +4,9 @@
         <StackLayout colSpan="2" class="r1">
             <Label text="Hello" horizontalAlignment="center" verticalAlignment="center" />
         </StackLayout >
-        <StackLayout>
-        <GridLayout rows="*,*,*,*" columns="*,*" rowSpan="2">
+        <StackLayout row="1" colSpan="2">
+            <ScrollView class="s">
+        <GridLayout rows="*,*,*,*,*" columns="*,*" rowSpan="2">
         <StackLayout row="0" col="0" class="r1 r2">
             <Label text="p1"  horizontalAlignment="center" verticalAlignment="center"/>
         </StackLayout>
@@ -30,7 +31,14 @@
         <StackLayout row="3" col="1" class="r1 r2" >
             <Label text="p2"  horizontalAlignment="center" verticalAlignment="center"/>
         </StackLayout>
+         <StackLayout row="4" col="0" class="r1 r2" >
+            <Label text="p2"  horizontalAlignment="center" verticalAlignment="center"/>
+        </StackLayout>
+          <StackLayout row="4" col="1" class="r1 r2" >
+            <Label text="p2"  horizontalAlignment="center" verticalAlignment="center"/>
+        </StackLayout>
         </GridLayout>
+        </ScrollView>
         </StackLayout>
         <StackLayout row="2" colSpan="2" class="r1">
             <Label text="p3" horizontalAlignment="center" verticalAlignment="center"/>
